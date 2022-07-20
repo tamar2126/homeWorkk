@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="employeesModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="company_tbl">
+    <Key>
+      <PropertyRef Name="company_id" />
+    </Key>
+    <Property Name="company_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="company_name" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="emplooyes_tbl">
+    <Key>
+      <PropertyRef Name="emplooye_id" />
+    </Key>
+    <Property Name="emplooye_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="company_employee_id" Type="int" />
+    <Property Name="start_work_date" Type="datetime" />
+    <Property Name="end_work_date" Type="datetime" />
+    <Property Name="emplooye_name" Type="varchar" MaxLength="10" />
+  </EntityType>
+  <Association Name="FK__emplooyes__compa__2B3F6F97">
+    <End Role="company_tbl" Type="Self.company_tbl" Multiplicity="0..1" />
+    <End Role="emplooyes_tbl" Type="Self.emplooyes_tbl" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="company_tbl">
+        <PropertyRef Name="company_id" />
+      </Principal>
+      <Dependent Role="emplooyes_tbl">
+        <PropertyRef Name="company_employee_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="employeesModelStoreContainer">
+    <EntitySet Name="company_tbl" EntityType="Self.company_tbl" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="emplooyes_tbl" EntityType="Self.emplooyes_tbl" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__emplooyes__compa__2B3F6F97" Association="Self.FK__emplooyes__compa__2B3F6F97">
+      <End Role="company_tbl" EntitySet="company_tbl" />
+      <End Role="emplooyes_tbl" EntitySet="emplooyes_tbl" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

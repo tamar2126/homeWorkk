@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="TestHomeModelStoreContainer" CdmEntityContainer="TestHomeEntities">
+    <EntitySetMapping Name="gender">
+      <EntityTypeMapping TypeName="TestHomeModel.gender">
+        <MappingFragment StoreEntitySet="gender">
+          <ScalarProperty Name="gender_id" ColumnName="gender_id" />
+          <ScalarProperty Name="gender1" ColumnName="gender" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="person">
+      <EntityTypeMapping TypeName="TestHomeModel.person">
+        <MappingFragment StoreEntitySet="person">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="passport" ColumnName="passport" />
+          <ScalarProperty Name="C_name" ColumnName="_name" />
+          <ScalarProperty Name="dateBirth" ColumnName="dateBirth" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="id_gender" ColumnName="id_gender" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,132 @@
+S:\הנדסאים יד\מורות\angular\WebApplication1\WebApplication1\bin\WebApplication1.dll.config
+S:\הנדסאים יד\מורות\angular\WebApplication1\WebApplication1\bin\WebApplication1.dll
+S:\הנדסאים יד\מורות\angular\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+S:\הנדסאים יד\מורות\angular\WebApplication1\WebApplication1\bin\roslyn\csc.exe
+S:\הנדסאים יד\מורות\angular\WebApplication1\WebApplication1\bin\roslyn\csc.exe.config
+S:\הנדסאים יד\מורות\angular\WebApplication1\WebApplication1\bin\roslyn\csc.rsp
+S:\הנדסאים יד\מורות\angular\WebApplication1\WebApplication1\bin\roslyn\csi.exe
+S:\הנדסאים יד\מורות\angular\WebApplication1\WebApplication1\bin\roslyn\csi.exe.config
+S:\הנדסאים יד\מורות\angular\WebApplication1\WebApplication1\bin\roslyn\csi.rsp
+S:\הנדסאים יד\מורות\angular\WebApplication1\WebApplication1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+S:\הנדסאים יד\מורות\angular\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+S:\הנדסאים יד\מורות\angular\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+S:\הנדסאים יד\מורות\angular\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.dll
+S:\הנדסאים יד\מורות\angular\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+S:\הנדסאים יד\מורות\angular\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+S:\הנדסאים יד\מורות\angular\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CSharp.Core.targets
+S:\הנדסאים יד\מורות\angular\WebApplication1\WebApplication1\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+S:\הנדסאים יד\מורות\angular\WebApplication1\WebApplication1\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+S:\הנדסאים יד\מורות\angular\WebApplication1\WebApplication1\bin\roslyn\Microsoft.Managed.Core.targets
+S:\הנדסאים יד\מורות\angular\WebApplication1\WebApplication1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+S:\הנדסאים יד\מורות\angular\WebApplication1\WebApplication1\bin\roslyn\System.AppContext.dll
+S:\הנדסאים יד\מורות\angular\WebApplication1\WebApplication1\bin\roslyn\System.Collections.Immutable.dll
+S:\הנדסאים יד\מורות\angular\WebApplication1\WebApplication1\bin\roslyn\System.Console.dll
+S:\הנדסאים יד\מורות\angular\WebApplication1\WebApplication1\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+S:\הנדסאים יד\מורות\angular\WebApplication1\WebApplication1\bin\roslyn\System.Diagnostics.StackTrace.dll
+S:\הנדסאים יד\מורות\angular\WebApplication1\WebApplication1\bin\roslyn\System.IO.Compression.dll
+S:\הנדסאים יד\מורות\angular\WebApplication1\WebApplication1\bin\roslyn\System.IO.FileSystem.dll
+S:\הנדסאים יד\מורות\angular\WebApplication1\WebApplication1\bin\roslyn\System.IO.FileSystem.Primitives.dll
+S:\הנדסאים יד\מורות\angular\WebApplication1\WebApplication1\bin\roslyn\System.IO.Pipes.AccessControl.dll
+S:\הנדסאים יד\מורות\angular\WebApplication1\WebApplication1\bin\roslyn\System.IO.Pipes.dll
+S:\הנדסאים יד\מורות\angular\WebApplication1\WebApplication1\bin\roslyn\System.Reflection.Metadata.dll
+S:\הנדסאים יד\מורות\angular\WebApplication1\WebApplication1\bin\roslyn\System.Security.AccessControl.dll
+S:\הנדסאים יד\מורות\angular\WebApplication1\WebApplication1\bin\roslyn\System.Security.Claims.dll
+S:\הנדסאים יד\מורות\angular\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+S:\הנדסאים יד\מורות\angular\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.Encoding.dll
+S:\הנדסאים יד\מורות\angular\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.Primitives.dll
+S:\הנדסאים יד\מורות\angular\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+S:\הנדסאים יד\מורות\angular\WebApplication1\WebApplication1\bin\roslyn\System.Security.Principal.Windows.dll
+S:\הנדסאים יד\מורות\angular\WebApplication1\WebApplication1\bin\roslyn\System.Text.Encoding.CodePages.dll
+S:\הנדסאים יד\מורות\angular\WebApplication1\WebApplication1\bin\roslyn\System.ValueTuple.dll
+S:\הנדסאים יד\מורות\angular\WebApplication1\WebApplication1\bin\roslyn\System.Xml.ReaderWriter.dll
+S:\הנדסאים יד\מורות\angular\WebApplication1\WebApplication1\bin\roslyn\System.Xml.XmlDocument.dll
+S:\הנדסאים יד\מורות\angular\WebApplication1\WebApplication1\bin\roslyn\System.Xml.XPath.dll
+S:\הנדסאים יד\מורות\angular\WebApplication1\WebApplication1\bin\roslyn\System.Xml.XPath.XDocument.dll
+S:\הנדסאים יד\מורות\angular\WebApplication1\WebApplication1\bin\roslyn\vbc.exe
+S:\הנדסאים יד\מורות\angular\WebApplication1\WebApplication1\bin\roslyn\vbc.exe.config
+S:\הנדסאים יד\מורות\angular\WebApplication1\WebApplication1\bin\roslyn\vbc.rsp
+S:\הנדסאים יד\מורות\angular\WebApplication1\WebApplication1\bin\roslyn\VBCSCompiler.exe
+S:\הנדסאים יד\מורות\angular\WebApplication1\WebApplication1\bin\roslyn\VBCSCompiler.exe.config
+S:\הנדסאים יד\מורות\angular\WebApplication1\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+S:\הנדסאים יד\מורות\angular\WebApplication1\WebApplication1\bin\Newtonsoft.Json.dll
+S:\הנדסאים יד\מורות\angular\WebApplication1\WebApplication1\bin\System.Net.Http.Formatting.dll
+S:\הנדסאים יד\מורות\angular\WebApplication1\WebApplication1\bin\System.Web.Http.dll
+S:\הנדסאים יד\מורות\angular\WebApplication1\WebApplication1\bin\System.Web.Http.WebHost.dll
+S:\הנדסאים יד\מורות\angular\WebApplication1\WebApplication1\bin\Newtonsoft.Json.xml
+S:\הנדסאים יד\מורות\angular\WebApplication1\WebApplication1\bin\System.Net.Http.Formatting.xml
+S:\הנדסאים יד\מורות\angular\WebApplication1\WebApplication1\bin\System.Web.Http.xml
+S:\הנדסאים יד\מורות\angular\WebApplication1\WebApplication1\bin\System.Web.Http.WebHost.xml
+S:\הנדסאים יד\מורות\angular\WebApplication1\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+S:\הנדסאים יד\מורות\angular\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojAssemblyReference.cache
+S:\הנדסאים יד\מורות\angular\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.CoreCompileInputs.cache
+S:\הנדסאים יד\מורות\angular\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.CopyComplete
+S:\הנדסאים יד\מורות\angular\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+S:\הנדסאים יד\מורות\angular\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Users\user\Documents\לימודים תמר\מורה אנגולר\WebApplication1\WebApplication1\bin\WebApplication1.dll.config
+C:\Users\user\Documents\לימודים תמר\מורה אנגולר\WebApplication1\WebApplication1\bin\WebApplication1.dll
+C:\Users\user\Documents\לימודים תמר\מורה אנגולר\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+C:\Users\user\Documents\לימודים תמר\מורה אנגולר\WebApplication1\WebApplication1\bin\roslyn\csc.exe
+C:\Users\user\Documents\לימודים תמר\מורה אנגולר\WebApplication1\WebApplication1\bin\roslyn\csc.exe.config
+C:\Users\user\Documents\לימודים תמר\מורה אנגולר\WebApplication1\WebApplication1\bin\roslyn\csc.rsp
+C:\Users\user\Documents\לימודים תמר\מורה אנגולר\WebApplication1\WebApplication1\bin\roslyn\csi.exe
+C:\Users\user\Documents\לימודים תמר\מורה אנגולר\WebApplication1\WebApplication1\bin\roslyn\csi.exe.config
+C:\Users\user\Documents\לימודים תמר\מורה אנגולר\WebApplication1\WebApplication1\bin\roslyn\csi.rsp
+C:\Users\user\Documents\לימודים תמר\מורה אנגולר\WebApplication1\WebApplication1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\user\Documents\לימודים תמר\מורה אנגולר\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\user\Documents\לימודים תמר\מורה אנגולר\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\user\Documents\לימודים תמר\מורה אנגולר\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\user\Documents\לימודים תמר\מורה אנגולר\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\user\Documents\לימודים תמר\מורה אנגולר\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\user\Documents\לימודים תמר\מורה אנגולר\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\user\Documents\לימודים תמר\מורה אנגולר\WebApplication1\WebApplication1\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\user\Documents\לימודים תמר\מורה אנגולר\WebApplication1\WebApplication1\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\user\Documents\לימודים תמר\מורה אנגולר\WebApplication1\WebApplication1\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\user\Documents\לימודים תמר\מורה אנגולר\WebApplication1\WebApplication1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\user\Documents\לימודים תמר\מורה אנגולר\WebApplication1\WebApplication1\bin\roslyn\System.AppContext.dll
+C:\Users\user\Documents\לימודים תמר\מורה אנגולר\WebApplication1\WebApplication1\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\user\Documents\לימודים תמר\מורה אנגולר\WebApplication1\WebApplication1\bin\roslyn\System.Console.dll
+C:\Users\user\Documents\לימודים תמר\מורה אנגולר\WebApplication1\WebApplication1\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\user\Documents\לימודים תמר\מורה אנגולר\WebApplication1\WebApplication1\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\user\Documents\לימודים תמר\מורה אנגולר\WebApplication1\WebApplication1\bin\roslyn\System.IO.Compression.dll
+C:\Users\user\Documents\לימודים תמר\מורה אנגולר\WebApplication1\WebApplication1\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\user\Documents\לימודים תמר\מורה אנגולר\WebApplication1\WebApplication1\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\user\Documents\לימודים תמר\מורה אנגולר\WebApplication1\WebApplication1\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\user\Documents\לימודים תמר\מורה אנגולר\WebApplication1\WebApplication1\bin\roslyn\System.IO.Pipes.dll
+C:\Users\user\Documents\לימודים תמר\מורה אנגולר\WebApplication1\WebApplication1\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\user\Documents\לימודים תמר\מורה אנגולר\WebApplication1\WebApplication1\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\user\Documents\לימודים תמר\מורה אנגולר\WebApplication1\WebApplication1\bin\roslyn\System.Security.Claims.dll
+C:\Users\user\Documents\לימודים תמר\מורה אנגולר\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\user\Documents\לימודים תמר\מורה אנגולר\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\user\Documents\לימודים תמר\מורה אנגולר\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\user\Documents\לימודים תמר\מורה אנגולר\WebApplication1\WebApplication1\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\user\Documents\לימודים תמר\מורה אנגולר\WebApplication1\WebApplication1\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\user\Documents\לימודים תמר\מורה אנגולר\WebApplication1\WebApplication1\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\user\Documents\לימודים תמר\מורה אנגולר\WebApplication1\WebApplication1\bin\roslyn\System.ValueTuple.dll
+C:\Users\user\Documents\לימודים תמר\מורה אנגולר\WebApplication1\WebApplication1\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\user\Documents\לימודים תמר\מורה אנגולר\WebApplication1\WebApplication1\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\user\Documents\לימודים תמר\מורה אנגולר\WebApplication1\WebApplication1\bin\roslyn\System.Xml.XPath.dll
+C:\Users\user\Documents\לימודים תמר\מורה אנגולר\WebApplication1\WebApplication1\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\user\Documents\לימודים תמר\מורה אנגולר\WebApplication1\WebApplication1\bin\roslyn\vbc.exe
+C:\Users\user\Documents\לימודים תמר\מורה אנגולר\WebApplication1\WebApplication1\bin\roslyn\vbc.exe.config
+C:\Users\user\Documents\לימודים תמר\מורה אנגולר\WebApplication1\WebApplication1\bin\roslyn\vbc.rsp
+C:\Users\user\Documents\לימודים תמר\מורה אנגולר\WebApplication1\WebApplication1\bin\roslyn\VBCSCompiler.exe
+C:\Users\user\Documents\לימודים תמר\מורה אנגולר\WebApplication1\WebApplication1\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\user\Documents\לימודים תמר\מורה אנגולר\WebApplication1\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\user\Documents\לימודים תמר\מורה אנגולר\WebApplication1\WebApplication1\bin\Newtonsoft.Json.dll
+C:\Users\user\Documents\לימודים תמר\מורה אנגולר\WebApplication1\WebApplication1\bin\System.Net.Http.Formatting.dll
+C:\Users\user\Documents\לימודים תמר\מורה אנגולר\WebApplication1\WebApplication1\bin\System.Web.Http.dll
+C:\Users\user\Documents\לימודים תמר\מורה אנגולר\WebApplication1\WebApplication1\bin\System.Web.Http.WebHost.dll
+C:\Users\user\Documents\לימודים תמר\מורה אנגולר\WebApplication1\WebApplication1\bin\Newtonsoft.Json.xml
+C:\Users\user\Documents\לימודים תמר\מורה אנגולר\WebApplication1\WebApplication1\bin\System.Net.Http.Formatting.xml
+C:\Users\user\Documents\לימודים תמר\מורה אנגולר\WebApplication1\WebApplication1\bin\System.Web.Http.xml
+C:\Users\user\Documents\לימודים תמר\מורה אנגולר\WebApplication1\WebApplication1\bin\System.Web.Http.WebHost.xml
+C:\Users\user\Documents\לימודים תמר\מורה אנגולר\WebApplication1\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\user\Documents\לימודים תמר\מורה אנגולר\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojAssemblyReference.cache
+C:\Users\user\Documents\לימודים תמר\מורה אנגולר\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\לימודים תמר\מורה אנגולר\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csproj.CopyComplete
+C:\Users\user\Documents\לימודים תמר\מורה אנגולר\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\user\Documents\לימודים תמר\מורה אנגולר\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Users\user\Documents\לימודים תמר\מורה אנגולר\WebApplication1\WebApplication1\bin\EntityFramework.dll
+C:\Users\user\Documents\לימודים תמר\מורה אנגולר\WebApplication1\WebApplication1\bin\EntityFramework.SqlServer.dll
+C:\Users\user\Documents\לימודים תמר\מורה אנגולר\WebApplication1\WebApplication1\bin\EntityFramework.xml
+C:\Users\user\Documents\לימודים תמר\מורה אנגולר\WebApplication1\WebApplication1\bin\EntityFramework.SqlServer.xml

@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="employeesModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="company_tbl">
+          <Key>
+            <PropertyRef Name="company_id" />
+          </Key>
+          <Property Name="company_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="company_name" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="emplooyes_tbl">
+          <Key>
+            <PropertyRef Name="emplooye_id" />
+          </Key>
+          <Property Name="emplooye_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="company_employee_id" Type="int" />
+          <Property Name="start_work_date" Type="datetime" />
+          <Property Name="end_work_date" Type="datetime" />
+          <Property Name="emplooye_name" Type="varchar" MaxLength="10" />
+        </EntityType>
+        <Association Name="FK__emplooyes__compa__2B3F6F97">
+          <End Role="company_tbl" Type="Self.company_tbl" Multiplicity="0..1" />
+          <End Role="emplooyes_tbl" Type="Self.emplooyes_tbl" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="company_tbl">
+              <PropertyRef Name="company_id" />
+            </Principal>
+            <Dependent Role="emplooyes_tbl">
+              <PropertyRef Name="company_employee_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="employeesModelStoreContainer">
+          <EntitySet Name="company_tbl" EntityType="Self.company_tbl" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="emplooyes_tbl" EntityType="Self.emplooyes_tbl" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK__emplooyes__compa__2B3F6F97" Association="Self.FK__emplooyes__compa__2B3F6F97">
+            <End Role="company_tbl" EntitySet="company_tbl" />
+            <End Role="emplooyes_tbl" EntitySet="emplooyes_tbl" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="employeesModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="company_tbl">
+          <Key>
+            <PropertyRef Name="company_id" />
+          </Key>
+          <Property Name="company_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="company_name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="emplooyes_tbl" Relationship="Self.FK__emplooyes__compa__2B3F6F97" FromRole="company_tbl" ToRole="emplooyes_tbl" />
+        </EntityType>
+        <EntityType Name="emplooyes_tbl">
+          <Key>
+            <PropertyRef Name="emplooye_id" />
+          </Key>
+          <Property Name="emplooye_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="company_employee_id" Type="Int32" />
+          <Property Name="start_work_date" Type="DateTime" Precision="3" />
+          <Property Name="end_work_date" Type="DateTime" Precision="3" />
+          <Property Name="emplooye_name" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="company_tbl" Relationship="Self.FK__emplooyes__compa__2B3F6F97" FromRole="emplooyes_tbl" ToRole="company_tbl" />
+        </EntityType>
+        <Association Name="FK__emplooyes__compa__2B3F6F97">
+          <End Role="company_tbl" Type="Self.company_tbl" Multiplicity="0..1" />
+          <End Role="emplooyes_tbl" Type="Self.emplooyes_tbl" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="company_tbl">
+              <PropertyRef Name="company_id" />
+            </Principal>
+            <Dependent Role="emplooyes_tbl">
+              <PropertyRef Name="company_employee_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="employeesEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="company_tbl" EntityType="Self.company_tbl" />
+          <EntitySet Name="emplooyes_tbl" EntityType="Self.emplooyes_tbl" />
+          <AssociationSet Name="FK__emplooyes__compa__2B3F6F97" Association="Self.FK__emplooyes__compa__2B3F6F97">
+            <End Role="company_tbl" EntitySet="company_tbl" />
+            <End Role="emplooyes_tbl" EntitySet="emplooyes_tbl" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="employeesModelStoreContainer" CdmEntityContainer="employeesEntities">
+          <EntitySetMapping Name="company_tbl">
+            <EntityTypeMapping TypeName="employeesModel.company_tbl">
+              <MappingFragment StoreEntitySet="company_tbl">
+                <ScalarProperty Name="company_id" ColumnName="company_id" />
+                <ScalarProperty Name="company_name" ColumnName="company_name" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="emplooyes_tbl">
+            <EntityTypeMapping TypeName="employeesModel.emplooyes_tbl">
+              <MappingFragment StoreEntitySet="emplooyes_tbl">
+                <ScalarProperty Name="emplooye_id" ColumnName="emplooye_id" />
+                <ScalarProperty Name="company_employee_id" ColumnName="company_employee_id" />
+                <ScalarProperty Name="start_work_date" ColumnName="start_work_date" />
+                <ScalarProperty Name="end_work_date" ColumnName="end_work_date" />
+                <ScalarProperty Name="emplooye_name" ColumnName="emplooye_name" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

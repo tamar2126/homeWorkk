@@ -1,0 +1,15 @@
+D:\p8p\web\COMMON\bin\Debug\COMMON.exe.config
+D:\p8p\web\COMMON\bin\Debug\COMMON.exe
+D:\p8p\web\COMMON\bin\Debug\COMMON.pdb
+D:\p8p\web\COMMON\obj\Debug\COMMON.csproj.CoreCompileInputs.cache
+D:\p8p\web\COMMON\obj\Debug\COMMON.exe
+D:\p8p\web\COMMON\obj\Debug\COMMON.pdb
+D:\p8p\web\COMMON\obj\Debug\COMMON.csprojAssemblyReference.cache
+E:\p8p\web\COMMON\bin\Debug\COMMON.exe.config
+E:\p8p\web\COMMON\bin\Debug\COMMON.exe
+E:\p8p\web\COMMON\bin\Debug\COMMON.pdb
+E:\p8p\web\COMMON\obj\Debug\COMMON.csproj.AssemblyReference.cache
+E:\p8p\web\COMMON\obj\Debug\COMMON.csproj.SuggestedBindingRedirects.cache
+E:\p8p\web\COMMON\obj\Debug\COMMON.csproj.CoreCompileInputs.cache
+E:\p8p\web\COMMON\obj\Debug\COMMON.exe
+E:\p8p\web\COMMON\obj\Debug\COMMON.pdb

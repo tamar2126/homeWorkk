@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TestHomeModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="gender">
+    <Key>
+      <PropertyRef Name="gender_id" />
+    </Key>
+    <Property Name="gender_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="gender" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="person">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="passport" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="_name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="dateBirth" Type="date" Nullable="false" />
+    <Property Name="email" Type="varchar" MaxLength="50" />
+    <Property Name="phone" Type="varchar" MaxLength="50" />
+    <Property Name="id_gender" Type="int" />
+  </EntityType>
+  <Association Name="FK__person__id_gende__398D8EEE">
+    <End Role="gender" Type="Self.gender" Multiplicity="0..1" />
+    <End Role="person" Type="Self.person" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="gender">
+        <PropertyRef Name="gender_id" />
+      </Principal>
+      <Dependent Role="person">
+        <PropertyRef Name="id_gender" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="TestHomeModelStoreContainer">
+    <EntitySet Name="gender" EntityType="Self.gender" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="person" EntityType="Self.person" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__person__id_gende__398D8EEE" Association="Self.FK__person__id_gende__398D8EEE">
+      <End Role="gender" EntitySet="gender" />
+      <End Role="person" EntitySet="person" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
