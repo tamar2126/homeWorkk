@@ -1,0 +1,5 @@
+<p-chart type="bar" [data]="data" (click)="displayEmployees()" ></p-chart>
+<ul [ngStyle]="{'display':display==false?'none':'block'}" >
+    list of employees
+    <li *ngFor="let item of employees">{{item.EmplooyeName}}</li>
+</ul>
